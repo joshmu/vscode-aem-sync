@@ -291,7 +291,6 @@
             }
         }
         filterString += '</workspaceFilter>';
-        console.log(filterString);
 
         return Fs.mkdirp(tempWorkingDirectory + Path.sep + 'META-INF' + Path.sep + 'vault').then(
             function () {
